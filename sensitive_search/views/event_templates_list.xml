@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="events_list" name="Events list" inherit_id="website_event.events_list">
+		<xpath expr="//t[@t-if='not event_ids']" position="replace">
+			<div class="col-12">
+				<form id="searchy_form" action="/form/demo" method="POST">
+					<input type="hidden" name="csrf_token" value="request.csrf_token()" />
+					<input type="hidden" name="selected_id" value="2"/>
+					<div class="form-row">
+						<div class="form-group col-lg-12">
+							<div class="searchy-box">
+								<input class="searchy-input form-control" type="search" placeholder="..." autofocus="autofocus" autocomplete="off"/>
+								<ul class="dropdown-menu"></ul>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</xpath>
+	</template>
+
+</odoo>

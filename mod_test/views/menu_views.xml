@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_t0001" model="ir.actions.act_window">
+        <field name="name">0001</field>
+        <field name="res_model">t0001</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="t0001_view_tree"/>
+    </record>
+
+    <menuitem id="menu_t0000" name="0000" sequence="999">
+        <menuitem id="menu_main" name="0000" sequence="10">
+            <menuitem id="menu_t0001" name="t0001" action="action_t0001" sequence="1"/>
+        </menuitem>
+    </menuitem>
+
+</odoo>

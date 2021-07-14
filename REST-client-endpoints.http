@@ -1,0 +1,15 @@
+###
+# @no-cookie-jar
+GET https://xtestx.free.beeceptor.com/auth
+Authorization: Basic {{username}} {{password}}
+
+> {% client.global.set("access_token", JSON.parse(response.body).access_token); %}
+
+###
+# @no-cookie-jar
+POST https://xtestx.free.beeceptor.com/set
+Authorization: Bearer {{access_token}}
+Content-Type: application/x-www-form-urlencoded
+
+name="xyz"&description="xxxxxx"
+

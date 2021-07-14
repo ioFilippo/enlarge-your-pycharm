@@ -1,0 +1,8 @@
+<odoo>
+    <template id="assets_frontend" inherit_id="website.assets_frontend">
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/sensitive_search/static/src/js/website_demo.js"></script>
+        </xpath>
+    </template>
+
+</odoo>

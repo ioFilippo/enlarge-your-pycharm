@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* 0000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-04 23:10+0000\n"
+"PO-Revision-Date: 2021-03-04 23:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: 0000
+#: model:ir.ui.menu,name:0000.menu_main model:ir.ui.menu,name:0000.menu_t0000
+msgid "0000"
+msgstr ""
+
+#. module: 0000
+#: model:ir.actions.act_window,name:0000.action_t0001
+msgid "0001"
+msgstr ""
+
+#. module: 0000
+#: model:ir.model.fields,field_description:0000.field_t0001__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: 0000
+#: model:ir.model.fields,field_description:0000.field_t0001__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: 0000
+#: model:ir.model.fields,field_description:0000.field_t0001__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: 0000
+#: model:ir.model.fields,field_description:0000.field_t0001__id
+msgid "ID"
+msgstr ""
+
+#. module: 0000
+#: model:ir.model.fields,field_description:0000.field_t0001____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: 0000
+#: model:ir.model.fields,field_description:0000.field_t0001__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: 0000
+#: model:ir.model.fields,field_description:0000.field_t0001__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: 0000
+#: model:ir.model.fields,field_description:0000.field_t0001__description
+msgid "description"
+msgstr "descrizione5"
+
+#. module: 0000
+#: model:ir.model.fields,field_description:0000.field_t0001__name
+msgid "name"
+msgstr "nome5"
+
+#. module: 0000
+#: model:ir.model,name:0000.model_t0001 model:ir.ui.menu,name:0000.menu_t0001
+msgid "t0001"
+msgstr ""
